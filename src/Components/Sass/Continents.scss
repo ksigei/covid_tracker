@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+    padding: 1%;
+    width: 30vw;
+    height: 50vh;
+    border: 1px solid #444;
+    img {
+        width: 7vw;
+        height: 7vh;
+    }
+}
+
+.flex {
+    display: flex;
+}
+
+.t_bg {
+    background-color: #8080cc;
+    border: 1px solid;
+    border-radius: 7px;
+    color: rgb(17, 11, 11);
+}
+
+@media only screen and (max-width: 600px) {
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3vh;
+        padding: 3%;
+        width: 45vw;
+        height: 35vh;
+        border: 1px solid #444;
+        img {
+            width: 20vw;
+            height: 7vh;
+        }
+    }
+  }

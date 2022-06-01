@@ -1,0 +1,23 @@
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15vw;
+    width: 100vw;
+    height: 15vh;
+    background-color: #aaafb9;
+    color: #09097c;
+    font-size: larger;
+    border-bottom: 2px solid;
+}
+
+@media only screen and (max-width: 600px) {
+    nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15vw;
+        width: 100vw;
+        height: 15vh;
+    }
+  }

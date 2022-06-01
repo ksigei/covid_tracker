@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #9cb6ee;
+  padding: 2%;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    background-color: #9cb6ee;
+    padding: 1.5%;
+  }
+}
