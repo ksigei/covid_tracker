@@ -10,7 +10,9 @@
 * [Acknowledgements](#acknowledgements)
 
 ## About Project
-
+## Screenshots
+![screenshot](./screenshots/screen1.png)
+![screenshot](./screenshots/screen2.png)
 Covid Tracker is site used to check covid updates.
 ## [Live Demo](https://ncov-site.netlify.app/)
 ## [Presentation](#)
