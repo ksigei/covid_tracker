@@ -8,8 +8,8 @@
     align-items: center;
     gap: 2vh;
     padding: 1%;
-    width: 15vw;
-    height: 30vh;
+    width: 30vw;
+    height: 50vh;
     border: 1px solid #444;
     img {
         width: 7vw;
@@ -22,10 +22,10 @@
 }
 
 .t_bg {
-    background-color: #09097c;
+    background-color: #8080cc;
     border: 1px solid;
     border-radius: 7px;
-    color: #312f2f;
+    color: rgb(17, 11, 11);
 }
 
 @media only screen and (max-width: 600px) {
