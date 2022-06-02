@@ -1,59 +1,61 @@
 .container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 3px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
 }
+
 .card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2vh;
-    padding: 1%;
-    width: 30vw;
-    height: 30vh;
-    border: 3px solid #42426d;
-    border-radius: 10px;
-    img {
-        width: 7vw;
-        height: 7vh;
-    }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2vh;
+  padding: 1%;
+  width: 30vw;
+  height: 30vh;
+  border: 3px solid #42426d;
+  border-radius: 10px;
+
+  img {
+    width: 7vw;
+    height: 7vh;
+  }
 }
 
 .flex {
-    display: flex;
+  display: flex;
 }
 
 .flex-end {
-    margin: 0 0 0 75%;
+  margin: 0 0 0 75%;
 }
 
 .icons {
-    height: 4vh;
-    width: 5vw;
-    color: #2568FB;
+  height: 4vh;
+  width: 5vw;
+  color: #2568fb;
 }
+
 .t_bg {
-    background-color: #2568FB;
-    border: none;
-    border-radius: 7px;
-    color: #221c1c;
+  background-color: #2568fb;
+  border: none;
+  border-radius: 7px;
+  color: #221c1c;
 }
 
 @media only screen and (max-width: 600px) {
-    .card {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 3vh;
-        padding: 3%;
-        width: 45vw;
-        height: 35vh;
-        border: 5x solid #0c1b5e;
-        img {
-            width: 20vw;
-            height: 7vh;
-        }
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3vh;
+    padding: 3%;
+    width: 45vw;
+    height: 35vh;
+    border: 5px solid #0c1b5e;
+
+    img {
+      width: 20vw;
+      height: 7vh;
     }
   }
-
-  
+}
