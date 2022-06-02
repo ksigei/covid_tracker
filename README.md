@@ -12,7 +12,7 @@
 ## About Project
 
 Covid Tracker is site used to check covid updates.
-## [Live Demo](#)
+## [Live Demo](https://ncov-site.netlify.app/)
 ## [Presentation](#)
 
 
