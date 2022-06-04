@@ -12,8 +12,8 @@
   padding: 1%;
   width: 30vw;
   height: 30vh;
-  border: 3px solid #42426d;
-  border-radius: 10px;
+  border: 1px solid #42426d;
+  // border-radius: 10px;
 
   img {
     width: 7vw;
@@ -32,13 +32,13 @@
 .icons {
   height: 4vh;
   width: 5vw;
-  color: #2568fb;
+  color: #f5f0f1;
 }
 
 .t_bg {
-  background-color: #2568fb;
+  background-color: #f5f0f1;
   border: none;
-  border-radius: 7px;
+  // border-radius: 7px;
   color: #221c1c;
 }
 
@@ -51,7 +51,7 @@
     padding: 3%;
     width: 45vw;
     height: 35vh;
-    border: 5px solid #0c1b5e;
+    border: 5px solid #f5f0f1;
 
     img {
       width: 20vw;
