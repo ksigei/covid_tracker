@@ -9,8 +9,10 @@ function Header() {
     <nav>
       <Link to="/"><FontAwesomeIcon icon={faHome} /></Link>
       <h3>Coronavirus Tracker</h3>
-      <FontAwesomeIcon icon={faMicrophone} />
-      <FontAwesomeIcon icon={faCog} />
+      <div className="nav-right">
+        <FontAwesomeIcon icon={faMicrophone} />
+        <FontAwesomeIcon icon={faCog} />
+      </div>
     </nav>
   );
 }

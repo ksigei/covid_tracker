@@ -13,6 +13,7 @@
 ## Screenshots
 ![screenshot](./screenshots/screen1.png)
 ![screenshot](./screenshots/screen2.png)
+![screenshot](./screenshots/screen3.png)
 Covid Tracker is site used to check covid updates.
 ## [Live Demo](https://ncov-site.netlify.app/)
 ## [Presentation](https://youtu.be/YaC8EksPYMc)
