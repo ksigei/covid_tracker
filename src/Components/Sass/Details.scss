@@ -8,9 +8,6 @@
   flex-direction: column;
   align-items: center;
   height: 30vh;
-  gap: 2vh;
-  padding: 1%;
-  border-radius: 10px;
 
   img {
     width: 7vw;
@@ -21,7 +18,7 @@
 .flex {
   display: flex;
   height: 5vh;
-  border-bottom: 1px solid #0c1b5e;
+  border-bottom: 1px solid white;
 
   h3 {
     height: 4vh;
@@ -39,7 +36,7 @@
 .icons {
   height: 4vh;
   width: 5vw;
-  color: #2568fb;
+  color: #f5f5f8;
 }
 
 .t_bg {
@@ -47,8 +44,7 @@
   justify-content: flex-end;
   background: none;
   border: none;
-  border-radius: 7px;
-  color: #290c6d;
+  color: white;
 }
 
 @media only screen and (max-width: 600px) {
@@ -60,7 +56,6 @@
     padding: 3%;
     width: 45vw;
     height: 35vh;
-    border: 5px solid #0c1b5e;
 
     img {
       width: 20vw;

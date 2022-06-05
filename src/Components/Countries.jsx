@@ -25,7 +25,6 @@ const Countries = () => {
           <input
             className="input"
             placeholder="Country Name"
-            // onChange={(event) => setQuery(event.target.value)}
           />
         </div>
       </form>
@@ -34,11 +33,11 @@ const Countries = () => {
           .filter((country) => country.country.toLowerCase().includes(query.toLowerCase()))
           .map((country) => (
             <div key={country.id} className="card">
+              <img src={country.flag} alt="covid-images" />
               <div className="flex">
                 <h3>Country:</h3>
-                <h3 className="#">{country.country}</h3>
+                <h3 className="t_bg">{country.country}</h3>
               </div>
-              <img src={country.flag} alt="covid-images" />
               <div className="flex">
                 <h3>Cases:</h3>
                 <h3 className="t_bg">{country.cases}</h3>

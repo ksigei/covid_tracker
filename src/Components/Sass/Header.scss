@@ -1,14 +1,18 @@
 nav {
   display: flex;
-  justify-content: center;
   align-items: center;
-  gap: 15vw;
-  width: 100vw;
+  padding: 0 4vw 0 4vw;
+  gap: 35vw;
   height: 15vh;
-  background-color: #aaafb9;
-  color: #09097c;
+  background-color: #db6d85;
+  color: #ebebee;
   font-size: larger;
   border-bottom: 2px solid;
+
+  .nav-right {
+    display: flex;
+    gap: 2vw;
+  }
 }
 
 @media only screen and (max-width: 600px) {
