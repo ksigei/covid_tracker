@@ -32,7 +32,7 @@ Covid Tracker is site used to check covid updates.
     git clone https://github.com/ksigei/covid_tracker.git
     ```
 
-* Navigate to SpaceTravelers folder/directory
+* Navigate to covid_tracker folder/directory
 
     ```bash
     cd folder-name
